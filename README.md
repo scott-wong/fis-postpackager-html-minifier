@@ -1,3 +1,3 @@
-# fis-optimizer-html-minifier
+# fis-postpackager-html-minifier
 
-A optimizer plugin for fis to compress html by using html-minifier.
+A postpackager plugin for fis to compress html by using html-minifier.
