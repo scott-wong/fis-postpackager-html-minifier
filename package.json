@@ -1,7 +1,7 @@
 {
     "name" : "fis-postpackager-html-minifier",
     "description" : "A postpackager plugin for fis to compress html by using html-minifier.",
-    "version" : "0.0.2",
+    "version" : "0.0.3",
     "author" : "scott-wong",
     "keywords": [ "fis", "html", "compress", "compressor", "minify", "minifier" ],
     "main" : "index.js",
@@ -12,10 +12,7 @@
     "engines" : {
         "node" : ">= 0.8.0"
     },
-    "scripts" : {
-        "test" : "mocha test/ut --recursive"
-    },
     "dependencies" : {
-        "html-minifier" : "0.6.3"
+        "html-minifier" : "0.6.x"
     }
 }
